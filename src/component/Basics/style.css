@@ -1,0 +1,44 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 350px;
+  /* height: 150px; */
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+.cardId {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #453c67;
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.title h2 {
+  margin: 0 0 18px 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  transition: color 0.3s ease-out;
+}
+
+.title h2:hover {
+  color: #28666e;
+}
+
+.image img {
+  border-radius: 50%;
+}
+
+.desc {
+}
